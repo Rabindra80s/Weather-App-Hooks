@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="App">
-      <h3>Weather App</h3>
+      <h3>Weather-App</h3>
       <Form getWeather={fetchData} />
       <Weather
         city={weather.city}
